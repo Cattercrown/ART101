@@ -12,6 +12,7 @@ h1 {
     background-color: rgb(47, 127, 255);
     color: rgb(159, 255, 255);
     font-weight: normal;
+    padding: 2%;
 }
 
 P {
@@ -23,4 +24,8 @@ IMG {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
 }
+
+#beyonce { width: 20%}
+
