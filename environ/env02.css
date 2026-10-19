@@ -20,6 +20,7 @@ h2,
 
 h3 {
     background-color: red;
+    text-align: center;
     color: white;
     font-family: 'Courier New', Courier, monospace;
 
@@ -85,25 +86,6 @@ img {
     font-size: 90%;
 }
 
-.below-zone {
-    background: black;
-    padding: 20px;
-    border-radius: 12px;
-}
-
-.below-zone h2 {
-    margin-top: 0;
-}
-
-.below-zone li {
-    margin-bottom: 8px;
-}
-
-.below-zone a {
-    color: rgb(48, 93, 255);
-    font-weight: bold;
-}
-
 .mythical-1 {
     text-align: center;
     flex: 1;
@@ -141,12 +123,12 @@ img {
 
 .mythical-2 p {
     font-size: 120%;
-    background: white;
     padding: 20px;
     border-radius: 12px;
 }
+
 #mythicals {
-    background: rgb(194, 255, 194);
+    background: black;
     padding: 90px;
     flex: 2;
     border-radius: 12px;
@@ -162,3 +144,23 @@ img {
     font-size: 120%;
     line-height: 1.5;
 }
+
+.below-zone p {
+    color: red;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.below-zone h2 {
+    margin-top: 0;
+}
+
+.below-zone li {
+    margin-bottom: 8px;
+}
+
+.below-zone a {
+    color: rgb(48, 93, 255);
+    font-weight: bold;
+}
+
