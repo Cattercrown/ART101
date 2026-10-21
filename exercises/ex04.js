@@ -5,7 +5,7 @@
 let count =0;
 
 let colors = ["green", "brown (ew)", "orange (yikes)", "light green (oh thank god)",
-    "yellow (maybe she should've been fed a different leek)", "gold (you must feel lucky)", "purple (is that even possible?)", "red (maybe she should throw up!)", "pink (i'm just not gonna tell you any more colors)", "undefined", "undefined (told ya)", "undefined", "undefined", "undefined", "undefined", "undefined", "undefined", "undefined", "undefined (you can stop clicking now)", "undefined", "undefined", "undefined", "undefined (i'm tired of this grandpa)", "undefined (WELL THAT'S TOO DAMN BAD!)"];
+    "yellow (maybe she should've been fed a different leek)", "gold (you must feel lucky)", "purple (is that even possible?)", "red (maybe she should throw up!)", "pink (i'm just not gonna tell you any more colors)", "undefined", "undefined (told ya)", "undefined", "undefined", "undefined", "undefined", "undefined", "undefined", "undefined", "undefined (you can stop clicking now)", "undefined", "undefined", "UNDEFINED", "undefined (i'm tired of this grandpa)", "undefined (WELL THAT'S TOO DAMN BAD!)"];
 
     let buttonText=""
 
