@@ -27,15 +27,23 @@ $("#needy-button").click(function () {
 
     $("body").css("background-color", colors[colorsCount]);
 
-    //$("body").append(' ,img width='50' src='" +colors[count-1] +".jpg'>");
+    //$("body").append(" <img width='50' src='" +colors[count-1] +".jpg'>");
 
-    //if we run out of colors start from the first one again
+    if (count >= 25) { $("#needy-button").after("<p> my mood is now... SUPER EXTREME ANGER MODE >:00</p>"); }
+    else if (count >= 13) { $("#needy-button").after("<p> my mood is now... SUPER angy</p>"); }
+    else if(count >= 5) { $("#needy-button").after("<p> my mood is now... angy</p>"); }
+    
+    //if (  (count >= 13)  && (count <30)) { $("#needy-button").after("<p> my mood is now... SUPER angy</p>"); }
+
+   //if (  (count >= 30)  && (count <300)) { $("#needy-button").after("<p> my mood is now... MEGA ANGRY EXTREMO MODE!!! >:000</p>"); }
 
     colorsCount = colorsCount + 1;
-    
-    if (colorsCount >= 12) { colorsCount = 0; }
 
-    
+    //if we run out of colors start from the first one again
+    if (colorsCount >= 12) { colorsCount = 0; };
+
+
+
 
 });
 
