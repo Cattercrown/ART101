@@ -18,3 +18,6 @@ buttonText = "You have voted " + count + " time(s)";
     $("#needy-button").html(buttonText);
     
     });
+
+
+    
