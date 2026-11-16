@@ -55,16 +55,26 @@ select {
 
 /* Long lists scroll inside the example. */
 #items {
-    list-style: none;
+    height: 550px;
+    width: 550px;
     padding: 0;
-    margin: 20px 0;
+    margin: 50px;
+    background: rgb(190, 247, 190);
+    display: flex;
+    position: relative;
+}
+
+#items:focus {
+    outline: 2px solid #555;
+    outline-offset: 3px;
 }
 
 
-#items li {
-    margin-bottom: 8px;
-    padding: 10px;
-    border: 1px solid #ccc;
+#items>div {
+    position: absolute;
+    height: 50px;
+    width: 50px;
     background: #f7f7f5;
     overflow-wrap: anywhere;
+    border: 1px dotted rgb(251, 255, 242);
 }
